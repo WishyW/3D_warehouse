@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_three_locate" model="ir.ui.view">
+            <field name="name">locate.wizard</field>
+            <field name="model">locate.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Locate Wizard">
+                    <group>
+                        <group>
+                            <widget name="stock_location"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="locate_wizard" model="ir.actions.act_window">
+            <field name="name">Locate Wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">locate.wizard</field>
+            <!-- <field name="view_type">form</field> -->
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_three_locate"/>
+            <field name="target">new</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="get_location_form" model="ir.ui.view">
+        <field name="name">Get Location From</field>
+        <field name="model">get.location</field>
+        <field name="arch" type="xml">
+            <form string="Stock Location">
+                <sheet>
+                    <group name="first" col="2">
+                        <field name="get_locations" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="startposx" class="oe_inline"/>
+                    </group>
+                    <group >
+                        <field name="startposy" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="startposz" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="loc_lenght" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="loc_height" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="loc_width" class="oe_inline"/>
+                    </group>
+                    <group>
+                        <field name="loc_repeat" class="oe_inline"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="get_location_tree" model="ir.ui.view">
+        <field name="name">Get Location tree</field>
+        <field name="model">get.location</field>
+        <field name="arch" type="xml">
+            <tree string="Get Locations">
+                <!-- <field name="startposx"/>
+                <field name="startposy"/> -->
+                <field name="startposz"/>
+                <!-- <field name="loc_lenght"/>
+                <field name="loc_height"/> -->
+                <field name="loc_repeat"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_get_location_form" model="ir.actions.act_window">
+        <field name="name">Put Locations</field>
+        <field name="res_model">get.location</field>
+        <field name="type">ir.actions.act_window</field>
+        <!-- <field name="view_type">form</field> -->
+        <field name="view_id" ref="get_location_tree"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Define a new warehouse
+            </p>
+        </field>
+    </record>
+
+    <menuitem parent="stock.menu_warehouse_config" id="menu_action_get_location_form" action="action_get_location_form" name="Put Locations" sequence="6"/>
+</odoo>

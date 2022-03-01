@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* bumanit_warehouse_visualization
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-24 07:15+0000\n"
+"PO-Revision-Date: 2020-04-24 07:15+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__create_uid
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__create_uid
+msgid "Created by"
+msgstr "Үүсгэсэн"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__create_date
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__create_date
+msgid "Created on"
+msgstr "Үүсгэсэн огноо"
+
+#. module: bumanit_warehouse_visualization
+#: model_terms:ir.actions.act_window,help:bumanit_warehouse_visualization.action_get_location_form
+msgid "Define a new warehouse"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__display_name
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model,name:bumanit_warehouse_visualization.model_get_location
+#: model:ir.ui.menu,name:bumanit_warehouse_visualization.menu_action_get_location_form
+#: model_terms:ir.ui.view,arch_db:bumanit_warehouse_visualization.get_location_tree
+msgid "Get Locations"
+msgstr "Тавиур үүсгэх"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__id
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location____last_update
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__write_uid
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__write_date
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_locate_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model_terms:ir.ui.view,arch_db:bumanit_warehouse_visualization.view_location_form_inherit_bumanit_location
+msgid "Locate"
+msgstr "3 хэмжээст Байрлуулах"
+
+#. module: bumanit_warehouse_visualization
+#: code:addons/bumanit_warehouse_visualization/models/get_location.py:43
+#: code:addons/bumanit_warehouse_visualization/models/location.py:23
+#: model:ir.actions.act_window,name:bumanit_warehouse_visualization.locate_wizard
+#: model:ir.model,name:bumanit_warehouse_visualization.model_locate_wizard
+#: model_terms:ir.ui.view,arch_db:bumanit_warehouse_visualization.view_three_locate
+#, python-format
+msgid "Locate Wizard"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model,name:bumanit_warehouse_visualization.model_stock_location
+msgid "Location"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: code:addons/bumanit_warehouse_visualization/models/get_location.py:37
+#, python-format
+msgid "Location repeat max number is 20."
+msgstr "1 удаа Тавиур үүсгэх хамгийн их утга 20"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__get_locations
+msgid "Locations"
+msgstr "Байрлал"
+
+#. module: bumanit_warehouse_visualization
+#: code:addons/bumanit_warehouse_visualization/models/get_location.py:15
+#, python-format
+msgid "New"
+msgstr "Шинэ"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__loc_lenght
+msgid "Position X"
+msgstr "X тэнхлэгийн дагуух хайрцагны урт"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__loc_height
+msgid "Position Y"
+msgstr "Y тэнхлэгийн дагуух хайрцагны өндөр"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__loc_width
+msgid "Position Z"
+msgstr "Z тэнхлэгийн дагуух хайрцагны өргөн"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.actions.act_window,name:bumanit_warehouse_visualization.action_get_location_form
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_stock_location__location_line_ids
+msgid "Put Locations"
+msgstr "Тавиурын байрлал үүсгэх"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__name
+msgid "Reference"
+msgstr ""
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__loc_repeat
+msgid "Repeat of locations"
+msgstr "Хайрцагны тоо хэмжээ"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__startposx
+msgid "Start position X"
+msgstr "X тэнхлэгийн дагуух эхлэх цэг"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__startposy
+msgid "Start position Y"
+msgstr "Y тэнхлэгийн дагуух эхлэх цэг"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,field_description:bumanit_warehouse_visualization.field_get_location__startposz
+msgid "Start position Z"
+msgstr "Z тэнхлэгийн дагуух эхлэх цэг"
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,help:bumanit_warehouse_visualization.field_get_location__startposx
+msgid "Start posx default value 16"
+msgstr "X тэнхлэгийн дагуух эхлэх цэгийн анхны утга 16. Энэ нь тухайн 3 хэмжээстийн төв хэсэгт үүснэ."
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,help:bumanit_warehouse_visualization.field_get_location__startposy
+msgid "Start posy default value 2"
+msgstr "Y тэнхлэгийн дагуух эхлэх цэгийн анхны утга 2. Энэ нь тухайн 3 хэмжээстийн төв хэсэгт үүснэ."
+
+#. module: bumanit_warehouse_visualization
+#: model:ir.model.fields,help:bumanit_warehouse_visualization.field_get_location__startposz
+msgid "Start posy default value 4"
+msgstr "Z тэнхлэгийн дагуух эхлэх цэгийн анхны утга 4. Энэ нь тухайн 3 хэмжээстийн төв хэсэгт үүснэ."
+
+#. module: bumanit_warehouse_visualization
+#: model_terms:ir.ui.view,arch_db:bumanit_warehouse_visualization.get_location_form
+msgid "Stock Location"
+msgstr ""

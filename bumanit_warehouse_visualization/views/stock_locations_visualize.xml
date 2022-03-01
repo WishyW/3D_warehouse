@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="bumanit_warehouse_visualization assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/bumanit_warehouse_visualization/static/js/three.min.js"></script>
+            <script type="text/javascript" src="/bumanit_warehouse_visualization/static/js/stock_location.js"></script>
+            <script type="text/javascript" src="/bumanit_warehouse_visualization/static/js/TweenMax.min.js"></script>
+            <script type="text/javascript" src="/bumanit_warehouse_visualization/static/js/projector.js"></script>
+            <script type="text/javascript" src="/bumanit_warehouse_visualization/static/js/controls/OrbitControls.js"></script>
+            <link href="/bumanit_warehouse_visualization/static/css/xml.css" rel="stylesheet" type="text/css"/>
+        </xpath>
+    </template>
+</odoo>
