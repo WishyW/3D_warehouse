@@ -14,10 +14,6 @@ class Location(models.Model):
     # Stock.location дээр байгаа posx, posy, posz дээр утга оруулснаар тухайн үүсгэсэн тавиур дээр
     # өөрийн агуулахын байрлалыг байрлуулж болно.
 
-    location_line_ids = fields.One2many(
-        "get.location", "get_locations", string="Put Locations"
-    )
-
     def locate(self):
         view = self.env.ref("bumanit_warehouse_visualization.view_three_locate")
         return {

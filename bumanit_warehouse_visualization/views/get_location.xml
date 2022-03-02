@@ -38,11 +38,9 @@
         <field name="model">get.location</field>
         <field name="arch" type="xml">
             <tree string="Get Locations">
-                <!-- <field name="startposx"/>
-                <field name="startposy"/> -->
+                <field name="startposx"/>
+                <field name="startposy"/>
                 <field name="startposz"/>
-                <!-- <field name="loc_lenght"/>
-                <field name="loc_height"/> -->
                 <field name="loc_repeat"/>
             </tree>
         </field>
@@ -52,7 +50,6 @@
         <field name="name">Put Locations</field>
         <field name="res_model">get.location</field>
         <field name="type">ir.actions.act_window</field>
-        <!-- <field name="view_type">form</field> -->
         <field name="view_id" ref="get_location_tree"/>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
