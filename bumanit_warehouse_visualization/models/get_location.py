@@ -37,7 +37,6 @@ class Location(models.Model):
     row_y = fields.Integer("row_y")
     row_z = fields.Integer("row_z")
     shelf = fields.Integer("Shelf")
-    get_locations = fields.Many2one("stock.location", string="Locations")
 
     @api.model
     def create(self, vals):

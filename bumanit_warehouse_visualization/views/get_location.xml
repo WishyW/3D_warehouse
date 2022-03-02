@@ -7,9 +7,6 @@
         <field name="arch" type="xml">
             <form string="Stock Location">
                 <sheet>
-                    <group name="first" col="2">
-                        <field name="get_locations" class="oe_inline"/>
-                    </group>
                     <group>
                         <field name="startposx" class="oe_inline"/>
                     </group>
