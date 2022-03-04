@@ -8,7 +8,7 @@
     "version": "13.0.1.0.0",
     "depends": ["base", "stock"],
     "author": "Boldsukh.A",
-    "category": "Inventory",
+    "category": "Warehouse",
     "description": """This module could be using for visualization your warehouse""",
     "license": "LGPL-3",
     "price": "199.99",
