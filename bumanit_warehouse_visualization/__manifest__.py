@@ -4,7 +4,7 @@
 # Author: Boldsukh.A
 # 2020
 {
-    "name": "Bumanit Warehouse Visualization",
+    "name": "Warehouse Visualization",
     "version": "13.0.1.0.0",
     "depends": ["base", "stock"],
     "author": "Boldsukh.A",
