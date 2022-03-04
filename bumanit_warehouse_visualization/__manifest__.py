@@ -25,6 +25,7 @@
     "qweb": [
         "static/xml/stock_location_visualize.xml",
     ],
+    "images": ["static/description/banner.gif"],
     "installable": True,
     "auto_install": False,
 }
