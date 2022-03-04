@@ -11,7 +11,7 @@
     "category": "Inventory",
     "description": """This module could be using for visualization your warehouse""",
     "license": "LGPL-3",
-    "price": "99.99",
+    "price": "199.99",
     "currency": "USD",
     "website": "http://www.bumanit.mn",
     "data": [
